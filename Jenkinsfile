@@ -23,6 +23,7 @@ pipeline {
          steps {
             pwsh(script: """
                ls
+               gci env:*
                docker-compose up -d
                ./scripts/test_container.ps1
             """)
