@@ -24,6 +24,7 @@ pipeline {
             pwsh(script: """
                ls
                gci env:*
+               pip install docker-compose
                docker-compose up -d
                ./scripts/test_container.ps1
             """)
