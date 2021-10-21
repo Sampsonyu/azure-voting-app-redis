@@ -23,6 +23,8 @@ pipeline {
          steps {
             pwsh(script: """
                ls
+               docker images -a
+               docker-compose
                docker-compose up -d
                ./scripts/test_container.ps1
             """)
