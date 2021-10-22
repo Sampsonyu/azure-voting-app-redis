@@ -15,7 +15,6 @@ pipeline {
                docker images -a
                docker build -t jenkins-pipeline .
                docker images -a
-               docker-compose --version
                cd ..
             """)
          }
@@ -23,10 +22,7 @@ pipeline {
       stage('Start test app') {
          steps {
             pwsh(script: """
-               ls
-               gci env:*
-               pip install docker-compose
-               docker-compose up -d
+               docker-compose up
                ./scripts/test_container.ps1
             """)
          }
