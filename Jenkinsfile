@@ -22,7 +22,8 @@ pipeline {
       stage('Start test app') {
          steps {
             pwsh(script: """
-               docker-compose up
+               ls
+               docker compose up
                ./scripts/test_container.ps1
             """)
          }
