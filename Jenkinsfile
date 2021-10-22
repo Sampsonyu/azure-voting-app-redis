@@ -23,7 +23,7 @@ pipeline {
          steps {
             pwsh(script: """
                ls
-               docker compose up
+               docker-compose up
                ./scripts/test_container.ps1
             """)
          }

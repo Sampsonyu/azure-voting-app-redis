@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e73820b-1b25-4e76-a467-a38c67479c17" name="Default Changelist" comment="">
+    <list default="true" id="3e73820b-1b25-4e76-a467-a38c67479c17" name="Default Changelist" comment="docker compose up">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azure-vote/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/azure-vote/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +34,35 @@
       <option name="presentableId" value="Default" />
       <updated>1634158499944</updated>
     </task>
+    <task id="LOCAL-00001" summary="docker-compose --version">
+      <created>1634879222731</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1634879222731</updated>
+    </task>
+    <task id="LOCAL-00002" summary="pip install docker-compose">
+      <created>1634879340192</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1634879340192</updated>
+    </task>
+    <task id="LOCAL-00003" summary="pip install docker-compose">
+      <created>1634879843707</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1634879843707</updated>
+    </task>
+    <task id="LOCAL-00004" summary="docker compose up">
+      <created>1634880200811</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1634880200811</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -58,5 +88,11 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="docker-compose --version" />
+    <MESSAGE value="pip install docker-compose" />
+    <MESSAGE value="docker compose up" />
+    <option name="LAST_COMMIT_MESSAGE" value="docker compose up" />
   </component>
 </project>
