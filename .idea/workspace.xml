@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e73820b-1b25-4e76-a467-a38c67479c17" name="Default Changelist" comment="docker compose up">
+    <list default="true" id="3e73820b-1b25-4e76-a467-a38c67479c17" name="Default Changelist" comment="remove sudo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/azure-vote/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/azure-vote/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +61,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634880200811</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="remove sudo">
+      <created>1634880814518</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1634880814518</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -93,6 +99,7 @@
     <MESSAGE value="docker-compose --version" />
     <MESSAGE value="pip install docker-compose" />
     <MESSAGE value="docker compose up" />
-    <option name="LAST_COMMIT_MESSAGE" value="docker compose up" />
+    <MESSAGE value="remove sudo" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove sudo" />
   </component>
 </project>
